@@ -1,0 +1,236 @@
+body {
+
+  text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+
+
+}
+
+
+
+/*div #pintar {
+	 border: 2px solid red;
+     border-radius: 5px;
+}*/
+
+#position{
+    position: relative;
+}
+
+#modal2{
+	z-index: 1003;
+    display: block;
+    opacity: 6;
+    transform: scaleX(1);
+    top: 25%;
+}
+ #validacion{
+	padding: 30px;
+	margin-top: 10px;
+    margin-bottom: 9px
+    width:10;
+    height:100; 
+
+}
+/*modal*/
+#modal1{
+    opacity: 0.9;
+}
+
+/*modal prueba*/
+
+.modalK {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    animation: modal 0.9s 0.8s forwards;
+    visibility: hidden;
+    opacity: 9;
+    position: absolute;
+    z-index: 2;
+}
+
+.contenido {
+    margin: auto;
+    width: 70%;
+    height: 40%;
+    background: white;
+    border-radius: 10px;
+    /*align-content: center;*/
+    text-decoration: 2px;
+    position: relative;
+    word-break: break-all;
+    -webkit-animation: mymove 2s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    from {background-color: yellow;}
+    to {background-color: white;}
+
+
+}
+.test{
+margin-top: 1px;
+/*font-size: 10rem;*/
+font-family: "Bebas"; 
+
+    
+}
+/*.contenido{
+font-color:blue;
+border-radius: 26px 26px 26px 26px;
+font-size: 3rem;
+
+
+}*/
+
+
+#cerrar {
+    display: none;
+
+   .contenido.colored {
+    background: green;
+  }
+}
+
+#cerrar + label {
+    position: absolute;
+    color: yellow;
+    font-size: 25px;
+    z-index: 50;
+    background: #3d7709;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    right: 150px;
+    top: 150px;
+    cursor: pointer;
+    align-content: center;
+    
+    animation: modal 1.9s 3.8s forwards;
+    visibility: hidden;
+    opacity: 0;
+
+
+}
+
+#cerrar:checked + label, #cerrar:checked ~ .modalK {
+    display: none;
+}
+
+@keyframes modal {
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+
+
+/*modal prueba*/
+
+
+
+
+#continuar{
+
+	margin-top: 35px;
+    /*margin-bottom: 80px;*/
+
+}
+
+
+#activo{
+border: 1px solid black;
+background-color: yellow;
+border-radius: 26px 26px 26px 26px;
+text-shadow: 1px 2px 6px  black;
+border: 5px solid white;
+border-radius: 68px 25px;
+border-top-style: outset;
+
+
+}
+
+#celda{
+border: 1px solid black;
+background-color: #d88208;
+border-radius: 26px 26px 26px 26px;
+border: 5px solid white;
+border-radius: 68px 25px;
+border-top-style: outset;
+
+
+}
+
+.backstretch{
+opacity: 0.3;
+}
+/*#basecolor{
+background-color: gray;
+opacity: 0.5;
+
+}*/
+.cajaPregunta{
+	top: center center;
+	padding: 10px;
+	margin:  6 2px;
+	width:  0 2px;
+	height: 120px;
+	border: 9px solid #868686;
+	border-radius:5px 15px;
+	border-top-style: inset;
+	background: white;
+	/*float: left;*/
+	}
+	/*text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF*
+		border-image: url(border.png) 30 stretch;
+	*/
+
+div #baseRespuestas{
+	margin-top: 10px;
+    margin-bottom: 9px;
+    /*margin-right: 150px;*/
+    /*margin-left: 80px;*/
+    /*background-color: lightblue;*/
+	padding: 0 2px;
+	width: 900px;
+	height: 155px;
+}
+ div #a1, #a2 {
+
+	padding: 20px;
+
+	height: auto;
+	border: 5px solid #868686;
+	border-radius:5px 13px;
+	border-top-style: inset;
+    display: inline-flex;
+    align-items: center;
+    background: white;
+
+   /* float: left;*/
+
+
+ }
+
+div #a3, #a4 {
+	
+	padding: 20px;
+	height: auto;
+	border: 5px solid #868686;
+	border-radius:5px 13px;
+	border-top-style: inset;
+    display: inline-flex;
+    align-items: center;
+    float: left;
+    background: white;
+
+ }

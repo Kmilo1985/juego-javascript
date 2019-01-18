@@ -1,0 +1,33 @@
+//objetos
+
+	[
+		
+		{
+			"pregunta1" : "¿En que mes estamos?",
+			 "r1" : "julio ",
+			 "r2" : "octubre ",
+			 "r3" : "septiembre ",
+			 "correcta" : "agosto "
+
+			
+		},
+		{
+			"pregunta2" : "¿en que año estamos?",
+			 "r1" : 2015,
+			 "r2" : 2017,
+			 "r3" : 1986,
+			 "correcta" : 2016
+
+				
+		},
+
+		{		
+			"pregunta3" : "¿pregunta?",
+			 "r1" : "otras ",
+			 "r2" : "otras ",
+			 "r3" : "otras ",
+			 "correcta" : "otras "
+
+		},
+
+   ]
